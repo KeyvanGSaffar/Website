@@ -84,6 +84,7 @@ body, html{
 
 #nav-list {
   margin-top: 10px;
+  position: relative;
 }
 #nav-list a {
   color: #0B2027;
@@ -104,6 +105,28 @@ body, html{
   clear: both;
   margin-top: -30px;
 }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #70A9A1;
+}
+/*button.navbar-toggle:focus {
+  background-color: #40798C;
+}
+*/
+.resume{
+  position: absolute;
+  bottom: -60px;
+  right: 10px;
+/*  background-color: #40798C;
+*/}
+div.resume a {
+  line-height: 35px;
+  height: 50px;
+  width: 340px;
+  background-color: #40798C;
+  border: 1px solid #0B2027;
+  font-family: 'Lora', serif;
+  font-weight: bold;}
 /* END HEADER */
 
 /* FOOTER */
@@ -148,6 +171,14 @@ body, html{
 
 
 /* HOME PAGE */
+.resume2  a{
+  color: #0B2027;
+  width: 100%;
+  /*border-radius: 0;*/
+  background-color: #70A9A1;
+  border: 1px solid #0B2027;
+}
+
 .bgimg-1, .bgimg-2, .bgimg-3{
   position: relative;
   opacity: 1;
@@ -267,6 +298,26 @@ p > a {
   .navbar-header {
     height: 125px;
   }
+
+  #header-nav {
+    height: 150px;
+  }
+
+  .resume{
+  position: absolute;
+  bottom: -45px;
+  right: 10px;
+/*  background-color: #40798C;
+*/}
+div.resume a {
+  line-height: 25px;
+  height: 40px;
+  width: 340px;
+  background-color: #40798C;
+  font-family: 'Lora', serif;
+  border: 1px solid #0B2027;
+}
+
   /* End Header */
 
   /* Home Page */
