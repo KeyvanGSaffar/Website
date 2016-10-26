@@ -181,6 +181,9 @@ div.resume a {
   /*border-radius: 0;*/
   background-color: #70A9A1;
   border: 1px solid #0B2027;
+  font-family: 'Lora', serif;
+  font-weight: bold;}
+
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3{
