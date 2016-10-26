@@ -127,7 +127,11 @@ div.resume a {
   border: 1px solid #0B2027;
   font-family: 'Lora', serif;
   font-weight: bold;}
-/* END HEADER */
+
+/*  .resume:active:after {
+    background-color: #70A9A1;
+  } 
+*//* END HEADER */
 
 /* FOOTER */
 #email,#phone {
