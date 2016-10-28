@@ -233,8 +233,10 @@ h2 > a:hover {
   background-color: #CFD7C7;
 }
 
-#bio-discription p, #projects p, #publications p{
-  padding: 30px 195px 30px 195px;
+#bio-discription p, #projects p, #publications p, ul.undergrad-interest{
+  padding: 30px 0px;
+  margin-right: 13%;
+  margin-left: 13%;
   color: #0B2027;
   text-align: justify;
   font-family: 'Lora', serif;
@@ -242,10 +244,14 @@ h2 > a:hover {
 #bio-discription p:nth-child(1) {
   padding-bottom: 0;
 }
+#bio-discription p:nth-child(2), #bio-discription p:nth-child(4){
+ padding-top: 10px; 
+ padding-bottom: 5px;
+}
 
-#bio-discription p:nth-child(2) {
-  padding-top: 0;
-  padding-bottom: 25px;
+#bio-discription p:nth-child(5) {
+  padding-top: 5px; 
+  padding-bottom: 5px;
   text-align: right;
 }
 
@@ -285,6 +291,17 @@ p > a {
   color: #0B2027;
   text-decoration: none;
 }
+
+  ul.undergrad-interest {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    font-size: 0.9em;
+  /*  margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+*/
+  }
 /* END SINGLE CATEGORY PAGE */
 
 
@@ -292,6 +309,12 @@ p > a {
 @media (min-width: 1200px) {
 }
 
+ #bio-discription p, #projects p, #publications p, ul.undergrad-interest{
+    /*padding-left: 55px;
+    padding-right: 55px;*/
+    width: 1000px;
+    margin: auto;
+  }
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
@@ -327,19 +350,28 @@ div.resume a {
   /* End Header */
 
   /* Home Page */
-  #bio-discription p, #projects p, #publications p{
-    padding-left: 55px;
-    padding-right: 55px;
+  #bio-discription p, #projects p, #publications p, ul.undergrad-interest{
+    /*padding-left: 55px;
+    padding-right: 55px;*/
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
   }
+
+
   /* End Home Page */
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
-  #bio-discription p, #projects p, #publications p{
-    padding-left: 45px;
-    padding-right: 45px;
+  #bio-discription p, #projects p, #publications p, ul.undergrad-interest{
+  /*  padding-left: 45px;
+    padding-right: 45px;*/
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+
   }
 
   h2 {
@@ -360,12 +392,12 @@ div.resume a {
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
 
-.Dept-Uni {
-  font-size: 2.5vw;
-  top: 2px;
-  left: 0px;
-/*  margin: 0 100px 0 0;*/
-}
+  .Dept-Uni {
+    font-size: 2.5vw;
+    top: 2px;
+    left: 0px;
+  /*  margin: 0 100px 0 0;*/
+  }
   .navbar-brand p img { /* Star-K */
     height: 20px;
   }
@@ -403,11 +435,20 @@ div.resume a {
   /* End Footer */
 
   /* Home Page */
-  #bio-discription p, #projects p, #publications p{
+  #bio-discription p, #projects p, #publications p, ul.undergrad-interest{
     font-size: 0.8em;
-    padding-left: 35px;
-    padding-right: 35px;
+    /*padding-left: 35px;
+    padding-right: 35px;*/
+    margin-right: 8%;
+    margin-left: 8%;
+    width: 84%;
+
   }
+
+  ul.undergrad-interest {
+    font-size: 0.7em;
+  }
+
 
   h2 {
     font-size: 2em;
@@ -431,11 +472,17 @@ div.resume a {
   /* End Header */
   
   /* Home page */
-  #bio-discription p, #projects p, #publications p{
+  #bio-discription p, #projects p, #publications p, ul.undergrad-interest{
     font-size: 0.8em;
-    padding-left: 35px;
-    padding-right: 35px;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
   }
+
+  ul.undergrad-interest {
+    font-size: 0.7em;
+  }
+
 
   h2 {
     font-size: 1.5em;
