@@ -50,15 +50,15 @@
             </li>
  -->            
             <li>
-              <a href="#bio-discription">
+              <a href="#cursor-b">
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
             </li>
             <li>
-              <a href="#projects">
+              <a href="#cursor-p">
                 <span class="glyphicon glyphicon-wrench"></span><br class="hidden-xs"> Projects</a>
             </li>
             <li>
-              <a href="#publications">
+              <a href="#cursor-pub">
                 <span class="glyphicon glyphicon-file"></span><br class="hidden-xs"> Publications</a>
             </li>
             <li>
@@ -80,7 +80,7 @@
    </div>
    <div class = "bgimg-1">
     <div class="biography">
-      <h2><a href="#bio-discription">Biography</h2></a>  
+      <h2><span id="cursor-b"><a href="#bio-discription">Biography</a></span></h2>  
     </div>
    </div> 
 
@@ -99,19 +99,45 @@
 
    <div class="bgimg-2">
     <div class="proj">
-      <h2><a href="#projects">Projects</h2></a>  
+      <h2 ><span id = "cursor-p"><a href="#projects">Projects</a></span></h2>  
     </div>
    </div> 
 
    <div id="projects">
-      <p>Through my undergraduate and graduate studies, I have done several projects including course projects, BSc. project and projects done for competitions. Below, I provided a summaryof each project accompanied by its link on GitHub.</p>
-      <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+      <p>Through my undergraduate and graduate studies, I have done several projects including course projects, BSc. project and projects done for competitions. Below, I provided a summary of each project accompanied by its link on GitHub.</p> 
+      <ul id = "outer-li">
+        <li>
+          <h3><a href="https://github.com/KeyvanGSaffar/MST-minimum-spanning-tree.git" target="_blank">Simulation of a non-cooperative broadcast algorithm (Current)</a></h3>
+          <p>In this project, I am simulating a non-cooperative broadcast algorithm for Wireless and Ad-Hoc Sensor Networks presented in the paper <a href="http://ieeexplore.ieee.org/document/6353616/" target="_blank">"An Exponential Improvement on the MST Heuristic for Minimum Energy Broadcasting in Ad Hoc Wireless Networks"</a>. To do so, I needed to use a programming language that was fast and efficient. Therefore, I chose to code in C++ language. </p>
+        </li>
+        <li>
+          <h3><a href="https://github.com/KeyvanGSaffar/PhoneBook.git" target="_blank">Phone Book</a></h3>
+          <p> This is a classic phone book implementation having most of the capabilities of a typical phone book program (application) such as adding, deletting, updating, or searching for contact entries.
+          Through the implementation of this project, I learned</p> 
+          <div class="proj3">
+            <ul>
+              <li>Object Oriented Programming (OOP)</li>
+              <li>Ruby programming language</li>
+              <li>Regular Expressions</li>
+              <li>Model-View-Controller (MVC) paradigm</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <h3><a href="https://github.com/KeyvanGSaffar/BSc.-Project.git" target="_blank">Advancement of a Web Server on an ARM-based Embedded System (BSc. project)</a></h3>
+          <p>This project was done in cooperation with my friend, Seyyed Farshad Kazemi at Ferdowsi University of Mashhad. We started with simple web server code, and developed it on an embedded system which used an ARM processor (AT91SAM7x256). the code of the simple web server was provided by the system (board) manufacturer. The project involved two main parts of C++ coding and web design. For the C++ coding, it required manipulation of processor's registers, which required familiarity with the board's schematic and datasheets of processor and other ICs that were used on the board. In addition, we developed the server-side of web server to respond to the requests sent from users. For the front-end, we developed web designs for the users and added extra pages to represent the real-time data that was generated by the sensors that were connected to the board.</p>
+        </li>
+        <li>
+          <h3><a href="https://github.com/KeyvanGSaffar/Blockus-Competition.git" target="_blank">FPGA Design Contest (Blockus Contest)</a></h3>
+          <p>This is project done through the 1st National Digital System Design Contest of Iran. This Contest was consisted of two categories: 1) FPGA Design Contest and 2) Hardware-Software Co-design Competition. We participated in the fisrt category as a 3-member team including to Electronics engineer and one Software engineer. The contest was a live event of a two-player blokus-duo game where the contestants designed hardware modules on FPGA to perform as one player of the game. The contestant designs competed against one another in a live league on the final day of the contest. The rules applied to the competition where similiar to the rules in <a href="http://lut.eee.u-ryukyu.ac.jp/dc13/" target="_blank">ICFPT 2013 Design Competition: Blokus Duo</a>. We had our design written in VHDL language and the FPGA board that was used in the competition was Altera DE2.</p>
+        </li>
+      </ul>     
       <p class="to-top"><a href="#header-nav"><span class="glyphicon glyphicon-triangle-top"></a></span></p>
    </div> 
 
    <div class="bgimg-3">
     <div class="publish">
-      <h2><a href="#publications">Publications</h2></a>  
+      <h2><span id="cursor-pub"><a href="#publications">Publications</a></span></h2>  
     </div>
    </div> 
 

@@ -219,12 +219,12 @@ h2 {
   font-style: italic;
   font-family: 'Lora', serif;
 }
-h2 > a{
+span > a{
   text-decoration: none;
   color: #000;
 }
 
-h2 > a:hover {
+span > a:hover, span > a:focus {
   text-decoration: none;
   color: #000;
 }
@@ -293,22 +293,24 @@ p > a {
   text-decoration: none;
 }
 
-  ul.undergrad-interest {
-    padding-top: 5px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    font-size: 0.9em;
+ul.undergrad-interest {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  font-size: 0.9em;
   /*  margin-right: 10%;
     margin-left: 10%;
     width: 80%;
 */
-  }
+}
+
+
 /* END SINGLE CATEGORY PAGE */
 
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-}
+
 
  #bio-discription p, #projects p, #publications p, ul.undergrad-interest{
     /*padding-left: 55px;
@@ -316,6 +318,37 @@ p > a {
     width: 1000px;
     margin: auto;
   }
+
+  h3 > a {
+    font-size: 0.9em;
+    width: 1000px;
+    margin: 25px auto 10px; 
+    color: #40798C;  
+  }
+
+  ul#outer-li p {
+      padding-right: 40px;
+    /*width: 1000px;*/
+    /*margin-right: 200px;*/
+    /*margin:auto;*/
+  }
+
+  ul#outer-li {
+    /*padding-left: 0;*/
+    width: 1000px;
+    margin:auto;
+    color: #40798C;
+  }
+
+  div.proj3 {
+    font-size: 0.9em;
+    width: 1000px;
+    margin:auto;
+    margin-top: 10px;
+    color: #000;
+    font-family: 'Lora', serif;
+  }
+}
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
@@ -339,18 +372,18 @@ p > a {
   right: 10px;
 /*  background-color: #40798C;
 */}
-div.resume a {
-  line-height: 25px;
-  height: 40px;
-  width: 340px;
-  background-color: #40798C;
-  font-family: 'Lora', serif;
-  border: 1px solid #0B2027;
-}
+  div.resume a {
+    line-height: 25px;
+    height: 40px;
+    width: 340px;
+    background-color: #40798C;
+    font-family: 'Lora', serif;
+    border: 1px solid #0B2027;
+  }
 
-  /* End Header */
+    /* End Header */
 
-  /* Home Page */
+    /* Home Page */
   #bio-discription p, #projects p, #publications p, ul.undergrad-interest{
     /*padding-left: 55px;
     padding-right: 55px;*/
@@ -359,6 +392,36 @@ div.resume a {
     width: 80%;
   }
 
+  h3 > a {
+    font-size: 0.9em;
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 10px;  
+    color: #40798C;  
+  }
+
+  ul#outer-li p {
+    padding-right: 25px;
+    width: 100%;
+    /*margin-right: 200px;*/
+    margin:auto 0%;
+  }
+
+  ul#outer-li {
+    /*padding-left: 0;*/
+    width: 84%;
+    margin:auto 8%;
+    color: #40798C;
+  }
+
+  div.proj3 {
+    font-size: 0.9em;
+    width: 96%;
+    margin:auto 2%;
+    margin-top: 10px;
+    color: #000;
+    font-family: 'Lora', serif;
+  }
 
   /* End Home Page */
 }
@@ -377,6 +440,39 @@ div.resume a {
 
   h2 {
     font-size: 2em;
+  }
+
+  h3 > a {
+    font-size: 0.75em;
+    /*width: 90%;*/
+    margin-top: 25px;
+    margin-bottom: 10px;
+    /*margin: 25px 5% 10px;  */
+    color: #40798C;  
+  }
+
+  ul#outer-li p {
+    font-size: 0.9em;
+      /*padding-right: 40px;*/
+    width: 94%;
+    /*margin-right: 200px;*/
+    margin:auto 3%;
+  }
+
+  ul#outer-li {
+    /*padding-left: 0;*/
+    width: 84%;
+    margin:auto 8%;
+    color: #40798C;
+  }
+
+  div.proj3 {
+    font-size: 0.8em;
+    width: 96%;
+    margin:auto 2%;
+    margin-top: 10px;
+    color: #000;
+    font-family: 'Lora', serif;
   }
   /* End Home Page */
 }
@@ -455,6 +551,39 @@ div.resume a {
     font-size: 2em;
   }
 
+  h3 > a {
+    font-size: 0.9em;
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 10px;  
+    color: #40798C;  
+  }
+
+  ul#outer-li p {
+    font-size: 0.9em;
+    padding-right: 6px;
+    width: 100%;
+    /*margin-right: 200px;*/
+    margin:auto 0%;
+  }
+
+  ul#outer-li {
+    padding-left: 15px;
+    width: 84%;
+    margin:auto 8%;
+    color: #40798C;
+  }
+
+  div.proj3 {
+    font-size: 0.8em;
+    width: 96%;
+    margin:auto 2%;
+    margin-top: 10px;
+    color: #000;
+    font-family: 'Lora', serif;
+  }
+
+
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
@@ -496,6 +625,38 @@ div.resume a {
     padding-left: 15px;
     float: left;
     width: 100%;
+  }
+
+  h3 > a {
+    font-size: 0.7em;
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 10px;  
+    color: #40798C;  
+  }
+
+  ul#outer-li p {
+    font-size: 0.8em;
+    /*padding-right: 15px;*/
+    width: 100%;
+    /*margin-right: 200px;*/
+    margin:auto 0%;
+  }
+
+  ul#outer-li {
+    padding-left: 5px;
+    width: 84%;
+    margin:auto 8%;
+    color: #40798C;
+  }
+
+  div.proj3 {
+    font-size: 0.7em;
+    width: 96%;
+    margin:auto 2%;
+    margin-top: 10px;
+    color: #000;
+    font-family: 'Lora', serif;
   }
   /* Footer */
   .panel-footer {
